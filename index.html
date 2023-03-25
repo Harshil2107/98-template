@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <style>
+        body {
+            padding-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav style='padding: 20px; border-bottom: 3px solid #ccc; margin-bottom: 60px;'>
+        <div class="title-bar">
+            <h2 class="title-bar-text" style='margin-bottom: 0; color: white;' id="name">
+                <i></i> Name
+            </h2>
+
+        </div>
+    </nav>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"> <p style="color: antiquewhite; font-size: large;"> Summary </p> </h3>
+        <div>
+            <div id="summary" class="window-body">
+                <h4>Summary</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"> <p style="color: antiquewhite; font-size: large;"> Education </p> </h3>
+        <div>
+            <div id="education" class="window-body" style="font-size: medium;">
+                <div>
+                    <i university></i>
+                    <span style="font-size: large; font-weight: bold;">University</span>
+                    <div class="lists">
+                        <p></p>
+                        <p><span startYear>Start Year</span> - <span endYear>End Year</span></p></i>
+                        <ul style='margin-bottom: 0;'>
+                            <p></p>
+                            <li major> Major</li>
+                            <p></p>
+                            <li addInfo> Additional Info </li>
+                            <p></p>
+                            <li releventCoursework>Relevant Coursework</li>
+                            <p></p>
+                            <li><u>GPA:</u><span gpa> GPA</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;"> Skills</p></h3>
+        <div id ="skills">
+            <div>
+                <h5><u skills class="window-body" style="font-size: medium;">Skills</u></h5>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;"> Publications</p></h3>
+        <div id="publication">
+            <div>
+                <h4 publication class="window-body" style="font-size: medium;">Publication</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;">Achievements</p></h3>
+        <div class="lists">
+            <ul id="achievements" class="window-body" style='font-size: medium; margin-bottom: 0;'>
+                <li>
+                    <span name>Name</span>
+                    <span date>Date</span>
+                    <span position>Position</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;"> Certifications</p></h3>
+        <div id="certifications">
+            <div  style="display: flex;">
+                <div>
+                    <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+                </div>
+                <div>
+                    <h4 certification class="window-body" style="font-size: medium;">Certificate</h4>
+                    <div class="lists">
+                        <ul style='margin-bottom: 0; font-size: medium;' description>
+                            <p><li>Description</li></p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;">
+           Work Experience
+        </p></h3>
+        <section class="window-body" id="workExperience">
+        <div style="display: flex;">
+            <div>
+                <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+            </div>
+            <div>
+                <h3 company style="font-size: large;">Company</h3>
+                <p position style="font-size: medium;">Position</p>
+                <p location style="font-size: medium;">Location</p>
+                <p><span startDate style="font-size: medium;">Start Date</span> - <span endDate style="font-size: medium;">End Date</span></p></i>
+                <div>
+                    <div>
+                        <div class="lists">
+                            <ul style='margin-bottom: 0; font-size: medium;' summary>
+                                <p><li>Summary</li></p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+
+    <div class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar"><p style="color: antiquewhite; font-size: large;">
+           Projects
+        </p></h3>
+        <section class="window-body" id="projects">
+        <div style="display: flex;">
+            <div>
+                <img image style='width: 100px; height: 100px; image-rendering: pixelated;'>
+            </div>
+            <div>
+                <h3 name style="font-size: large;">Name</h3>
+                <a source style="font-size: medium;">Source</a>
+                <p></p>
+                <a demo style="font-size: medium;">Demo-URL</a>
+                <p><span startDate style="font-size: medium;">Start Date</span> - <span endDate style="font-size: medium;">End Date</span></p></i>
+                <div>
+                    <div>
+                        <div class="lists">
+                            <ul style='margin-bottom: 0; font-size: medium;' description>
+                                <p><li>Description</li></p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+
+    <section class="window" style='margin: 30px; margin-top: 30px;'>
+        <h3 class="title-bar" style="color: antiquewhite; font-size: large;">Connect with me</h3>
+        <div class="window-body" style="font-size: medium;" id="links">
+            <div>
+            <a link>
+                <div>
+                    Link
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

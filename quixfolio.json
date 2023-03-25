@@ -1,0 +1,195 @@
+{
+    "id":"98-template",
+    "name":"98 Template",
+    "description":"This is a Windows 98 template",
+    "image":"image.png",
+    "schema": {
+    "cloneName": {
+      "type": "string",
+        "page": "index.html",
+      "default": "98-template"
+    },
+    "name": {
+      "type": "string",
+      "page": "index.html",
+      "default": ""
+    },
+    "summary": {
+      "type": "string",
+       "page": "index.html",
+      "default": ""
+    },
+    "education": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "university": {
+          "type": "string",
+          "default": ""
+        },
+        "startYear": {
+          "type": "string",
+          "default": ""
+        },
+        "endYear": {
+          "type": "string",
+          "default": ""
+        },
+        "major": {
+          "type": "string",
+          "default": ""
+        },
+        "gpa": {
+          "type": "integer",
+          "default": 0
+        },
+        "addInfo": {
+          "type": "string",
+          "default": ""
+        },
+        "releventCoursework": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "workExperience": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "company": {
+          "type": "string",
+          "default": ""
+        },
+        "location": {
+          "type": "string",
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "default": ""
+        },
+        "startDate": {
+          "type": "string",
+          "default": ""
+        },
+        "endDate": {
+          "type": "string",
+          "default": ""
+        },
+        "summary": {
+          "type": "string",
+          "default": ""
+        },
+        "image": {
+          "type": "image",
+          "default": ""
+        }
+      }
+    },
+    "publication": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "publication": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "description": {
+          "type": "string",
+          "default": ""
+        },
+        "source": {
+          "type": "link",
+          "default": ""
+        },
+        "demo": {
+          "type": "link",
+          "default": ""
+        },
+        "image": {
+          "type": "image",
+          "default": ""
+        },
+        "startDate": {
+          "type": "string",
+          "default": ""
+        },
+        "endDate": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "skills": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "achievements": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "date": {
+          "type": "string",
+          "default": ""
+        },
+        "position": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "certification": {
+          "type": "string",
+          "default": ""
+        },
+        "image": {
+          "type": "image",
+          "default": ""
+        },
+        "description": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "page": "index.html",
+      "items": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "link": {
+          "type": "link",
+          "default": ""
+        }
+      }
+    }
+  }
+}
